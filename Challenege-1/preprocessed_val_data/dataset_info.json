@@ -1,0 +1,42 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "bengali-transliteration-data",
+  "dataset_size": 685222,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/SKNahin/bengali-transliteration-data@0d7331ea621239345de79ca0e7fb67e1a3b73637/data/train-00000-of-00001.parquet": {
+      "num_bytes": 332927,
+      "checksum": null
+    }
+  },
+  "download_size": 332927,
+  "features": {
+    "bn": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "rm": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 1018149,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 685222,
+      "num_examples": 5006,
+      "dataset_name": "bengali-transliteration-data"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
